@@ -14,6 +14,7 @@
 		A8084D2C20F646B300BBA48E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8084D2A20F646B300BBA48E /* LaunchScreen.storyboard */; };
 		A8084D3720F646B300BBA48E /* singleViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8084D3620F646B300BBA48E /* singleViewTestTests.swift */; };
 		A8084D4220F646B300BBA48E /* singleViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8084D4120F646B300BBA48E /* singleViewTestUITests.swift */; };
+		A8C9EF582100B8010003AC30 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = A8C9EF572100B8010003AC30 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A8084D3D20F646B300BBA48E /* singleViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singleViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8084D4120F646B300BBA48E /* singleViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleViewTestUITests.swift; sourceTree = "<group>"; };
 		A8084D4320F646B300BBA48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C9EF572100B8010003AC30 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../../Documents/index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		A8084D2020F646B300BBA48E /* singleViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				A8C9EF572100B8010003AC30 /* index.html */,
 				A8084D2120F646B300BBA48E /* AppDelegate.swift */,
 				A8084D2320F646B300BBA48E /* ViewController.swift */,
 				A8084D2520F646B300BBA48E /* Main.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					A8084D1D20F646B300BBA48E = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = RZ8KC45XCK;
 						ProvisioningStyle = Automatic;
 					};
 					A8084D3120F646B300BBA48E = {
@@ -233,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8084D2C20F646B300BBA48E /* LaunchScreen.storyboard in Resources */,
+				A8C9EF582100B8010003AC30 /* index.html in Resources */,
 				A8084D2920F646B300BBA48E /* Assets.xcassets in Resources */,
 				A8084D2720F646B300BBA48E /* Main.storyboard in Resources */,
 			);
@@ -410,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RZ8KC45XCK;
 				INFOPLIST_FILE = singleViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sts.singleViewTest;
@@ -422,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RZ8KC45XCK;
 				INFOPLIST_FILE = singleViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sts.singleViewTest;
@@ -503,6 +510,7 @@
 				A8084D4820F646B300BBA48E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8084D4920F646B300BBA48E /* Build configuration list for PBXNativeTarget "singleViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +519,7 @@
 				A8084D4B20F646B300BBA48E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8084D4C20F646B300BBA48E /* Build configuration list for PBXNativeTarget "singleViewTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				A8084D4E20F646B300BBA48E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
